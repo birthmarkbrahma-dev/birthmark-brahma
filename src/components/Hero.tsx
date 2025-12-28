@@ -6,7 +6,16 @@ import React, { useState } from "react";
 const Hero = () => {
   const [open, setOpen] = useState(false);
   return (
-    <section className="relative pt-14 md:pt-20 pb-10 bg-gradient-to-br from-white to-blue-50 overflow-hidden">
+    <section
+  className="
+    relative
+    pt-28 md:pt-24
+    pb-12
+    bg-gradient-to-br from-white to-blue-50
+    overflow-hidden
+  "
+>
+
       {/* Decorative elements */}
       <div className="circle-bg hidden md:block w-[300px] h-[300px] bg-brand-blue left-[-100px] top-[20%] animate-spin-slow"></div>
       <div className="circle-bg hidden md:block w-[400px] h-[400px] bg-brand-lightBlue right-[-150px] bottom-[-100px] animate-spin-slow"></div>
