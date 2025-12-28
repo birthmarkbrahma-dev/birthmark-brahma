@@ -6,7 +6,16 @@ import React, { useState } from "react";
 const Hero = () => {
   const [open, setOpen] = useState(false);
   return (
-    <section className="bg-red-50 pt-36 md:pt-24">
+    <section
+  className="
+    relative
+    pt-36 md:pt-24
+    pb-12
+    bg-gradient-to-br from-white to-blue-50
+    overflow-hidden
+  "
+>
+
 
 
       {/* Decorative elements */}
