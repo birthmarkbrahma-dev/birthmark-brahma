@@ -123,6 +123,9 @@ const About = () => {
               To inscribe our chapter in the success stories of countless brands,
               becoming the ultimate destination for all marketing and branding needs.
             </p>
+            <p className ="text-gray-600">
+               We absorb business ideas and brands, nurturing them to grow, evolve, making them better equipped to enter and establish their identity in the market
+            </p>
 
             <p className="text-gray-600 font-semibold">
               Ideas walk in. Brands walk out.

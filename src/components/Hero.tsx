@@ -59,9 +59,12 @@ const Hero = () => {
               </Dialog>
             </div>
           </div>
-          <div className="relative hidden md:flex justify-center animate-slide-in-right" style={{animationDelay: '0.4s'}}>
+          <div className="relative flex justify-center animate-slide-in-right" style={{animationDelay: '0.4s'}}>
             <div className="relative z-10">
-              <div className="corner-card corner-clip max-w-[440px] max-h-[420px] overflow-hidden mx-auto">
+              <div className="corner-card corner-clip
+  w-[280px] h-[260px]
+  md:max-w-[440px] md:max-h-[420px]
+  overflow-hidden mx-auto">
                 <img 
                   src="/lovable-uploads/bb_hero.png" 
                   alt="Birthmark Brahma - Professional marketing and branding workspace showcasing our expertise in brand development and digital marketing solutions" 
