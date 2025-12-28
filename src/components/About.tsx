@@ -83,13 +83,14 @@ const About = () => {
   /* ===================== JSX ===================== */
 
   return (
-    <section id="about" className="py-24 relative overflow-hidden">
+    <section id="about" className="pt-12 pb-20 md:py-24 relative overflow-hidden">
       <div className="container relative z-10">
 
         {/* ABOUT + VISION */}
         <div className="grid md:grid-cols-2 gap-16 items-center">
           <div  className="corner-card corner-clip overflow-hidden bg-gradient-to-br from-blue-50 to-white 
-                max-w-[500px] h-[400px] mx-auto">
+                max-w-[320px] h-[220px] md:max-w-[500px] md:h-[400px]
+ mx-auto">
             <img
               src="/lovable-uploads/about.png"
               alt="About Birthmark Brahma"
@@ -97,7 +98,7 @@ const About = () => {
             />
           </div>
 
-          <div className="space-y-6">
+          <div className="order-1 md:order-none space-y-6">
             <div className="inline-block rounded-full bg-blue-100 text-brand-blue px-4 py-2 text-sm font-medium">
               About Us
             </div>
@@ -145,7 +146,8 @@ const About = () => {
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-12">
             {teamMembers.map((member) => (
               <div key={member.name} className="flex flex-col items-center">
-                <div className="w-44 h-44 rounded-full border-[6px] border-brand-blue overflow-hidden mb-6">
+                <div className="w-32 h-32 md:w-44 md:h-44 border-[4px] md:border-[6px]
+ rounded-full border-brand-blue overflow-hidden mb-6">
                   <img
                     src={member.image}
                     alt={member.name}
@@ -213,7 +215,10 @@ const About = () => {
     <img
       src={client.logo}
       alt={client.name}
-      className="max-h-24 max-w-[200px] object-contain transition-all duration-300"
+      className="max-h-16 max-w-[120px]
+    sm:max-h-20 sm:max-w-[160px]
+    md:max-h-24 md:max-w-[200px]
+    object-contain transition-all duration-300"
     />
   ) : (
     <p className="font-semibold text-gray-800 text-sm md:text-base px-2">
