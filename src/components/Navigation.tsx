@@ -44,7 +44,7 @@ const Navigation = () => {
             alt="Birthmark Brahma Logo"
             className="w-8 h-8 object-contain"
           />
-          <div className="text-2xl font-bold text-brand-blue">
+          <div className="text-1xl font-bold text-brand-blue">
             <span className="font-heading">Birthmark</span>
             <span className="font-heading ml-1">Brahma</span>
           </div>

@@ -9,12 +9,13 @@ const Hero = () => {
     <section
   className="
     relative
-    pt-36 md:pt-24
+    pt-[96px] md:pt-[120px]
     pb-12
     bg-gradient-to-br from-white to-blue-50
     overflow-hidden
   "
 >
+
 
 
 
