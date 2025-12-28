@@ -6,7 +6,7 @@ import React, { useState } from "react";
 const Hero = () => {
   const [open, setOpen] = useState(false);
   return (
-    <section className="relative py-20 md:min-h-screen md:pt-24 flex md:items-center bg-gradient-to-br from-white to-blue-50 overflow-hidden">
+    <section className="relative pt-28 pb-12 md:h-screen md:pt-24 md:pb-0 flex md:items-center bg-gradient-to-br from-white to-blue-50 overflow-hidden">
 
       {/* Decorative elements */}
       <div className="circle-bg hidden md:block w-[300px] h-[300px] bg-brand-blue left-[-100px] top-[20%] animate-spin-slow"></div>

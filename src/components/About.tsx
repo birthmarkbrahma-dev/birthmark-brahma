@@ -88,17 +88,9 @@ const About = () => {
 
         {/* ABOUT + VISION */}
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center text-center md:text-left">
-          <div  className="corner-card corner-clip overflow-hidden bg-gradient-to-br from-blue-50 to-white 
-                max-w-[320px] h-[220px] md:max-w-[500px] md:h-[400px]
- mx-auto">
-            <img
-              src="/lovable-uploads/about.png"
-              alt="About Birthmark Brahma"
-              className="rounded-xl shadow-lg"
-            />
-          </div>
+          
 
-          <div className="order-1 md:order-none space-y-6">
+          <div className="order-1 md:order-2 space-y-6">
             <div className="inline-block rounded-full bg-blue-100 text-brand-blue px-4 py-2 text-sm font-medium">
               About Us
             </div>
@@ -131,6 +123,18 @@ const About = () => {
             <p className="text-gray-600 font-semibold">
               Ideas walk in. Brands walk out.
             </p>
+          </div>
+
+          <div  className="order-2 md:order-1 corner-card corner-clip overflow-hidden
+               bg-gradient-to-br from-blue-50 to-white
+               max-w-[320px] h-[220px]
+               md:max-w-[500px] md:h-[400px]
+               mx-auto">
+            <img
+              src="/lovable-uploads/about.png"
+              alt="About Birthmark Brahma"
+              className="w-full h-full object-cover rounded-xl shadow-lg"
+            />
           </div>
         </div>
 
