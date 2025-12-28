@@ -87,7 +87,7 @@ const About = () => {
       <div className="container relative z-10">
 
         {/* ABOUT + VISION */}
-        <div className="grid md:grid-cols-2 gap-16 items-center">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center text-center md:text-left">
           <div  className="corner-card corner-clip overflow-hidden bg-gradient-to-br from-blue-50 to-white 
                 max-w-[320px] h-[220px] md:max-w-[500px] md:h-[400px]
  mx-auto">

@@ -6,7 +6,7 @@ import React, { useState } from "react";
 const Hero = () => {
   const [open, setOpen] = useState(false);
   return (
-    <section className="relative py-20 md:min-h-screen md:pt-24 flex items-center bg-gradient-to-br from-white to-blue-50 overflow-hidden">
+    <section className="relative py-20 md:min-h-screen md:pt-24 flex md:items-center bg-gradient-to-br from-white to-blue-50 overflow-hidden">
 
       {/* Decorative elements */}
       <div className="circle-bg hidden md:block w-[300px] h-[300px] bg-brand-blue left-[-100px] top-[20%] animate-spin-slow"></div>
@@ -18,7 +18,7 @@ const Hero = () => {
             {/* <div className="rounded-full bg-blue-50 text-brand-blue px-4 py-2 inline-block text-sm font-medium">
               Marketing & Branding Consultancy
             </div> */}
-            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight mb-4">
+            <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold leading-tight mb-4">
               Your Ultimate <span className="text-gradient">Marketing Odyssey</span> Begins Here
             </h1>
             <p className="text-lg text-gray-600 max-w-xl leading-relaxed mb-6">
@@ -60,21 +60,22 @@ const Hero = () => {
             </div>
           </div>
           <div className="relative flex justify-center animate-slide-in-right" style={{animationDelay: '0.4s'}}>
-            <div className="relative z-10">
-              <div className="corner-card corner-clip
-  w-[280px] h-[260px]
-  md:max-w-[440px] md:max-h-[420px]
-  overflow-hidden mx-auto">
-                <img 
-                  src="/lovable-uploads/bb_hero.png" 
-                  alt="Birthmark Brahma - Professional marketing and branding workspace showcasing our expertise in brand development and digital marketing solutions" 
-                  className="w-full h-full object-cover"
-                  loading="lazy"
-                  width="800"
-                  height="800"
-                />
-              </div>
-            </div>
+            <div className="relative flex justify-center md:justify-end mt-10 md:mt-0">
+  <div className="corner-card corner-clip 
+    w-[200px] h-[180px]
+    sm:w-[260px] sm:h-[240px]
+    md:w-[440px] md:h-[420px]
+    overflow-hidden mx-auto">
+    
+    <img
+      src="/lovable-uploads/bb_hero.png"
+      alt="Birthmark Brahma workspace"
+      className="w-full h-full object-cover"
+      loading="lazy"
+    />
+  </div>
+</div>
+
           </div>
         </div>
       </div>
