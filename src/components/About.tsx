@@ -214,16 +214,26 @@ const About = () => {
                 <CarouselItem className="basis-1/2 sm:basis-1/3 md:basis-1/3 lg:basis-1/4">
 
                   <div className="p-4">
-                    <div className="rounded-xl bg-white shadow-md p-6 h-32 flex items-center justify-center text-center transition-all">
+                    <div className="
+  rounded-xl bg-white shadow-md
+  h-28 sm:h-32 md:h-32
+  px-4
+  flex items-center justify-center
+  overflow-hidden
+">
+
   {client.logo ? (
     <img
-      src={client.logo}
-      alt={client.name}
-      className="max-h-16 max-w-[120px]
-    sm:max-h-20 sm:max-w-[160px]
-    md:max-h-24 md:max-w-[200px]
-    object-contain transition-all duration-300"
-    />
+  src={client.logo}
+  alt={client.name}
+  className="
+    max-h-12
+    sm:max-h-16
+    md:max-h-20
+    max-w-full
+    object-contain
+  "
+/>
   ) : (
     <p className="font-semibold text-gray-800 text-sm md:text-base px-2">
       {client.name}
