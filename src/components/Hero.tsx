@@ -9,13 +9,12 @@ const Hero = () => {
     <section
   className="
     relative
-    pt-24 pb-16
-    md:min-h-[100svh]
-    md:flex md:items-center
+    pt-20 pb-12
     bg-gradient-to-br from-white to-blue-50
     overflow-hidden
   "
 >
+
 
 
       {/* Decorative elements */}
@@ -23,7 +22,7 @@ const Hero = () => {
       <div className="circle-bg hidden md:block w-[400px] h-[400px] bg-brand-lightBlue right-[-150px] bottom-[-100px] animate-spin-slow"></div>
       
       <div className="container relative z-10">
-        <div className="grid md:grid-cols-2 gap-12 items-center">
+        <div className="grid md:grid-cols-2 gap-12 items-start">
           <div className="space-y-8 animate-slide-in-left" style={{animationDelay: '0.2s'}}>
             {/* <div className="rounded-full bg-blue-50 text-brand-blue px-4 py-2 inline-block text-sm font-medium">
               Marketing & Branding Consultancy
